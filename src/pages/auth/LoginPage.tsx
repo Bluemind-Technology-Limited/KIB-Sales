@@ -71,15 +71,12 @@ export function LoginPage() {
           </div>
         )}
 
-        <div className="w-[448px] max-w-full bg-surface rounded-2xl p-5 border border-slate-200 flex flex-col gap-3">
+        <div className="w-[380px] max-w-full bg-surface rounded-2xl p-8 border border-slate-200 flex flex-col gap-3">
           <h2 className="text-[23px] font-semibold text-text tracking-tight leading-8">
             Sign in to KIB SFA
           </h2>
-          <p className="text-xs text-slate-500">
-            Super admins manage the platform; distributors review their sales team&apos;s requests.
-          </p>
 
-          <form onSubmit={handleSubmit} className="flex flex-col gap-3">
+          <form onSubmit={handleSubmit} className="flex flex-col gap-4">
             <div className="flex flex-col gap-2">
               <label className="text-xs font-semibold text-text leading-5 tracking-tight">Email</label>
               <input
@@ -123,9 +120,7 @@ export function LoginPage() {
             </button>
           </form>
 
-          <div className="flex items-center gap-2 pt-1">
-            <span className="text-[11px] text-slate-400">Demo accounts removed</span>
-          </div>
+
         </div>
       </main>
     </div>
